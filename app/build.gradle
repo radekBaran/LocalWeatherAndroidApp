@@ -26,4 +26,12 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.0.1'
     testCompile 'junit:junit:4.12'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
+    // https://mvnrepository.com/artifact/org.json/json
+    compile 'org.json:json:20160810'
+    compile 'it.sephiroth.android.library.picasso:picasso:2.5.2.4b'
 }
